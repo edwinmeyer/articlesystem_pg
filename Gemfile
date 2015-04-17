@@ -9,6 +9,10 @@ gem 'rails', '2.3.14'
 
 gem 'pg', '0.17.1'
 
+group :production do
+  gem 'rails_12factor'
+end
+
 # per http://stackoverflow.com/questions/7829886/in-require-no-such-file-to-load-iconv-loaderror :
 gem "iconv", "~> 1.0.3"
 

@@ -21,6 +21,11 @@ GEM
       activeresource (= 2.3.14)
       activesupport (= 2.3.14)
       rake (>= 0.8.3)
+    rails_12factor (0.0.3)
+      rails_serve_static_assets
+      rails_stdout_logging
+    rails_serve_static_assets (0.0.4)
+    rails_stdout_logging (0.0.3)
     rake (10.4.2)
 
 PLATFORMS
@@ -30,3 +35,4 @@ DEPENDENCIES
   iconv (~> 1.0.3)
   pg (= 0.17.1)
   rails (= 2.3.14)
+  rails_12factor
